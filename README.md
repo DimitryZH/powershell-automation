@@ -22,6 +22,7 @@ The repository is intended to grow over time without turning every script into o
 | Module | Focus | Key Capabilities |
 | --- | --- | --- |
 | [Active Directory Automation](active-directory/README.md) | Active Directory and Group Policy administration with PowerShell | User creation, inactive account reporting and disabling, deleted object recovery, AD Recycle Bin enablement, object deletion, domain join helper, and Group Policy creation |
+| [SRE Platform Operations](sre-platform-operations/README.md) | SRE platform operational guardrails and validation automation | Terraform plan and scope guardrails, isolated Helm rendering, GitOps dependency checks, ingress bootstrap validation, and Alertmanager/PagerDuty safety checks |
 
 ## Getting Started
 
@@ -49,6 +50,7 @@ Requirements vary by module, but may include:
 - Administrative privileges for server, identity, or policy changes
 - RSAT tools and the Active Directory PowerShell module for directory automation
 - Appropriate domain, server, cloud, or platform permissions for the target environment
+- Platform modules may require tools such as git, terraform, helm, kubectl, or cloud provider CLIs
 
 Each module README defines its exact prerequisites, usage pattern, and operational notes.
 
