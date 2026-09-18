@@ -1,0 +1,16 @@
+# Logs and generated output directories
+*.log
+reports/
+output/
+outputs/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+*.local.ps1
+*.local.psd1
